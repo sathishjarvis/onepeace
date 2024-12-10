@@ -1,0 +1,144 @@
+@media screen and (max-width: 400px) {
+  #features {
+    padding: 20px;
+    width: 111%;
+  }
+  #about,
+  #services,
+  #testimonials,
+  #team,
+  #contact,
+  #footer {
+    width: 111%;
+  }
+
+  #project {
+    width: 110%;
+  }
+}
+.logo{
+  width: 110px;
+  margin-top: -55px !important;
+}
+ul li:hover {
+border: 1px solid white;
+border-radius: 25px;
+}
+.headings{
+  padding-top: 25px !important;
+}
+.hoverpad:hover{
+  background: #c2bdbd;
+  border-radius: 15px;
+  color: rgb(1, 54, 159);
+  box-shadow: 2px 2px 15px 2px black;
+  font-weight: 500; 
+}
+@media screen and (max-width:1000px) {
+  .hoverService{
+    text-align: center;
+  }
+}
+
+/* gallery */
+
+.projects {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.heading {
+  color: var(#ffe8f4f3);
+  letter-spacing: 1px;
+  font-size: 1.125rem;
+}
+
+.project-cont {
+  font-size: 3.2rem;
+  font-weight: 600;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  margin-left: 300px;
+  background:var(--bg-color);
+  background-clip: text;
+  color: transparent;
+  padding: 20px;
+}
+
+.project-1 {
+  border-radius: 20px;
+  overflow: hidden;
+  text-align: center;
+  width: 90%;
+  max-width: 390px;
+  height: 390px;
+  margin: 20px auto;
+  position: relative;
+}
+
+.project-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-overlay {
+  width: 100%;
+  height: 100%;
+  right: -100%;
+  top: 0;
+  position: absolute;
+  background: rgba(82, 174, 255, 0.069);
+  backdrop-filter: blur(5px);
+  color: var(#1a1a1a);
+  justify-content: center;
+  transition: 0.7s;
+  margin: auto;
+}
+
+.project-heading {
+  text-transform: uppercase;
+  font-size: 5rem;
+  font-weight: 450;
+  margin-top: 100px;
+}
+
+.project-body {
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 15px 15px 15px 15px;
+  color: black;
+}
+
+.project1-view {
+  background-color: var(#1a1a1a);
+  padding: 15px 30px;
+  color: var(#ffe8f4f3);
+  border: none;
+  border-radius: 15px;
+  font-weight: 500;
+  font-size: 2rem;
+}
+.project1-view:hover{
+  background-color:#fff ;
+  color:#1a1a1a;
+}
+
+.project-1:hover .project-overlay {
+  right: 0;
+}
+
+@media screen and (max-width:960px) {
+  
+}
+
+/* gallery end */
